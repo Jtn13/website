@@ -1,11 +1,29 @@
 .banner {
     background-color: #3C6E71;
     width: auto;
-    height: 100px;
-    justify-content: top;
+    height: 125px;
+    margin:auto;
+    margin-top:-100px;
+    justify-content: center;
+    justify-content: -50px;
+    align-items: center;
+    display:flex;
+    border-radius:30px;
+    transition: margin-top 500ms;
+}
+.banner:hover{
+        margin-top:-25px;
+}
+h1{
+    justify-content: center;
+    align-items: center;
 }
 body{
     background-color: #353535;
     margin:0px;
     padding:0px;
+}
+html, body, div{
+    font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
 }
