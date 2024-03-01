@@ -1,0 +1,11 @@
+.banner {
+    background-color: #3C6E71;
+    width: auto;
+    height: 100px;
+    justify-content: top;
+}
+body{
+    background-color: #353535;
+    margin:0px;
+    padding:0px;
+}
