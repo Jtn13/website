@@ -1,29 +1,51 @@
 .banner {
     background-color: #3C6E71;
     width: auto;
-    height: 125px;
+    height: 120px;
     margin:auto;
-    margin-top:-100px;
+    margin-top:-110px;
     justify-content: center;
-    justify-content: -50px;
+    justify-content:0;
     align-items: center;
     display:flex;
-    border-radius:30px;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
     transition: margin-top 500ms;
 }
 .banner:hover{
-        margin-top:-25px;
+        margin-top:-75px;
 }
 h1{
     justify-content: center;
     align-items: center;
+    color: #284B63;
+    font-size: 60px;
+    margin:auto;
+    display:flex;
 }
 body{
     background-color: #353535;
     margin:0px;
     padding:0px;
 }
-html, body, div{
+html, body, div, h1, h2, p{
     font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
+    font-optical-sizing: auto;
+}
+.resume{
+    background-color: #f8f7f7;
+    height:11in;
+    width:8.5in;
+    justify-content: center;
+    display:flex;
+    align-items: top;
+    margin:auto;
+    border-radius:10px;
+}
+p{
+    display:flex;
+    justify-content: center;
+}
+h3{
+    font-size:40px;
 }
