@@ -1,4 +1,5 @@
 .banner {
+
     background-color: #3C6E71;
     width: auto;
     height: 120px;
@@ -27,6 +28,7 @@ body{
     background-color: #353535;
     margin:0px;
     padding:0px;
+    width:auto;
 }
 html, body, div, h1, h2, p{
     font-family: "Rubik", sans-serif;
@@ -38,7 +40,6 @@ html, body, div, h1, h2, p{
     width:8.5in;
     justify-content: center;
     display:flex;
-    align-items: top;
     margin:auto;
     border-radius:10px;
 }
@@ -48,4 +49,25 @@ p{
 }
 h3{
     font-size:40px;
+}
+h2{
+    align-content: left;
+    color: #284B63;
+    font-style: bold;
+}
+.break{
+    height:2px;
+    width: 8in;
+    background-color: black;
+    border-radius:100px
+}
+.section{
+    width:7.5in;
+    margin-left:0.25in;
+    margin-top:-0.15in;
+}
+.bulletpoints{
+    margin-left:0.5in;
+    margin-top:-0.15in;
+    list-style-type: circle;
 }
