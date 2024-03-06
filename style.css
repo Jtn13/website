@@ -88,9 +88,25 @@ h2{
 }
 .backgroundblock{
     margin:auto;
-    width:90%; 
     background-color: #f8f7f7; 
     height:auto;
     border-radius:10px;
     padding:5px;
+}
+.backgroundblock h2{
+    margin-left:10px
+}
+.backgroundblock p{
+    margin-left:30px; 
+    margin-top:-15px; 
+    margin-right:30px;
+}
+.comppic{
+    width:40%; 
+    float:left; 
+    height:auto; 
+    margin-left:9%; 
+    border: 5px solid #f8f7f7;
+    border-radius: 5px;
+    radius:5px;
 }
